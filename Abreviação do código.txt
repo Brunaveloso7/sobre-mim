@@ -1,0 +1,3 @@
+Abreviação do código:
+
+header>nav.navbar>ul>li*5>a[href="#secao$"]{Seção $}
