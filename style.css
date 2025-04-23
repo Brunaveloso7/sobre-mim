@@ -1,4 +1,23 @@
 /*CSS externo*/
+
+:root {/*pronuncia:[rut] */
+--cor-primaria: #f04848;
+--cor-secundaria: #aa2938;
+--cor-fundo:#fff;
+--cor-primaria-texto: #333;
+--cor-secundaria-texto: #555;
+--cor-bordas:#aaa;
+}
+
+    [data-theme="dark"]{
+        --cor-primaria: #f04848;
+        --cor-secundaria: #aa2938;
+        --cor-fundo:#333;
+        --cor-primaria-texto: #fff;
+        --cor-secundaria-texto: #ccc;
+        --cor-bordas:#aaa;
+    }
+
  
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -147,4 +166,36 @@ input[type=submit]{
     flex-wrap: wrap;
 }
 
+#sobreMim{
+      display: block;
+      padding:4rem 10rem;
+}
 
+#sobreMim img{
+    float:left;
+    margin: 0 1rem  2rem 0;
+    width: 30vw;
+    border-radius: 50%;
+    border:5px solid var(--cor-bordas);
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
+body.alto-contraste {
+    background-color: #000 !important;
+    color: #fff !important;
+  }
+  
+  body.alto-contraste a {
+    color: yellow !important;
+  }
+  
+  body.alto-contraste .card,
+  body.alto-contraste .skill-box {
+    background-color: #111 !important;
+    color: #fff !important;
+    border: 2px solid #fff !important;
+  }
+  
+  body.alto-contraste header,
+  body.alto-contraste footer {
+    background-color: #222 !important;
+  }
